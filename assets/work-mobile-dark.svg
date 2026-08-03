@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1040" role="img" aria-labelledby="title desc">
+  <title id="title">Selected work</title>
+  <desc id="desc">Language Lit makes words return inside what you read next. Material 3 Expressive brings the full design system to React.</desc>
+  <defs>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#2A2730" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="720" height="500" rx="25" fill="#151419" stroke="#302D35"/>
+  <rect width="720" height="500" rx="25" fill="url(#grid)" opacity=".55"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+    <text x="36" y="48" fill="#9F91AE" font-size="14" font-weight="750" letter-spacing="1.5">01 / PRODUCT</text>
+    <text x="36" y="103" fill="#F6F1F8" font-size="42" font-weight="760" letter-spacing="-1.2">Language Lit</text>
+    <text x="36" y="143" fill="#BFA9FF" font-size="24" font-weight="700">Tap a word in one story. Meet it in the next.</text>
+    <text x="36" y="184" fill="#C8C0CD" font-size="19">One tap saves its meaning in that exact sentence.</text>
+    <text x="36" y="211" fill="#C8C0CD" font-size="19">Real FSRS brings it back on the day you'd forget it.</text>
+    <rect x="36" y="242" width="130" height="34" rx="17" fill="#292530" stroke="#3B3545"/>
+    <text x="55" y="264" fill="#DED6E4" font-size="13" font-weight="700">33 LANGUAGES</text>
+    <rect x="176" y="242" width="105" height="34" rx="17" fill="#292530" stroke="#3B3545"/>
+    <text x="197" y="264" fill="#DED6E4" font-size="13" font-weight="700">REAL FSRS</text>
+    <rect x="291" y="242" width="175" height="34" rx="17" fill="#292530" stroke="#3B3545"/>
+    <text x="310" y="264" fill="#DED6E4" font-size="13" font-weight="700">CONTEXTUAL MEANING</text>
+  </g>
+  <rect x="36" y="309" width="648" height="152" rx="23" fill="#242127" stroke="#3A3540"/>
+  <rect x="58" y="330" width="112" height="24" rx="12" fill="#393244"/>
+  <text x="73" y="347" fill="#CFBEFF" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" font-weight="750" letter-spacing="1">THE NEXT DAY</text>
+  <rect x="57" y="370" width="156" height="40" rx="7" fill="#71475C"/>
+  <text x="66" y="399" fill="#FFF7FA" font-family="-apple-system,BlinkMacSystemFont,'Hiragino Sans','Yu Gothic',sans-serif" font-size="27" font-weight="750">戻ってくる。</text>
+  <text x="224" y="382" fill="#A79EAB" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="700" letter-spacing="1">戻る · MODORU</text>
+  <text x="224" y="407" fill="#F0E9F1" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="19" font-weight="650">to return; to come back</text>
+
+  <rect y="540" width="720" height="500" rx="25" fill="#1D1924" stroke="#37303F"/>
+  <rect y="540" width="720" height="500" rx="25" fill="url(#grid)" opacity=".36"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+    <text x="36" y="589" fill="#AF9FC0" font-size="14" font-weight="750" letter-spacing="1.5">02 / OPEN SOURCE</text>
+    <text x="36" y="644" fill="#F7F2FA" font-size="40" font-weight="760" letter-spacing="-1.2">Material 3 Expressive</text>
+    <text x="36" y="684" fill="#D1BFFF" font-size="24" font-weight="700">The full system, ready to ship in React.</text>
+    <text x="36" y="725" fill="#CDC4D2" font-size="19">41 conformant components with typed theme APIs,</text>
+    <text x="36" y="752" fill="#CDC4D2" font-size="19">precompiled CSS, and zero runtime dependencies.</text>
+  </g>
+  <g>
+    <circle cx="90" cy="837" r="42" fill="#6E53B2"/><circle cx="144" cy="837" r="42" fill="#6E53B2"/>
+    <circle cx="90" cy="891" r="42" fill="#6E53B2"/><circle cx="144" cy="891" r="42" fill="#6E53B2"/>
+    <circle cx="250" cy="837" r="39" fill="#C47E93"/><circle cx="250" cy="837" r="25" fill="#1D1924"/>
+    <rect x="324" y="799" width="80" height="145" rx="40" fill="#D8CAFF"/>
+    <path d="M484 816c26-27 71-2 50 32 36 1 40 48 5 57-16 33-64 25-68-12-35-10-31-58 6-61 0-6 2-11 7-16Z" fill="#9C4E68"/>
+    <rect x="544" y="819" width="123" height="39" rx="19.5" fill="#3E287C" transform="rotate(-7 544 819)"/>
+  </g>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+    <rect x="36" y="970" width="139" height="34" rx="17" fill="#302A39" stroke="#463D51"/>
+    <text x="56" y="992" fill="#E2D8E8" font-size="13" font-weight="700">41 COMPONENTS</text>
+    <rect x="185" y="970" width="174" height="34" rx="17" fill="#302A39" stroke="#463D51"/>
+    <text x="205" y="992" fill="#E2D8E8" font-size="13" font-weight="700">ZERO RUNTIME DEPS</text>
+    <rect x="369" y="970" width="144" height="34" rx="17" fill="#302A39" stroke="#463D51"/>
+    <text x="391" y="992" fill="#E2D8E8" font-size="13" font-weight="700">REACT 18 + 19</text>
+  </g>
+</svg>
