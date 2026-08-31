@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="title desc">
   <title id="title">Builder signal: SSS contribution rank</title>
-  <desc id="desc">4,522 contributions in the last 12 months, 94 pull requests and 1 issues across all time.</desc>
+  <desc id="desc">4,521 contributions in the last 12 months, 94 pull requests and 1 issues across all time.</desc>
   <defs>
     <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
       <path d="M48 0H0V48" fill="none" stroke="#E2DCE8" stroke-width="1"/>
@@ -16,10 +16,10 @@
     <rect x="36" y="30" width="162" height="32" rx="16" fill="#EEE8F6" stroke="#D8D0DF"/>
     <circle cx="55" cy="46" r="5" fill="#7054B4"/>
     <text x="68" y="51" fill="#684E9C" font-size="12" font-weight="750" letter-spacing="1.35">BUILDER SIGNAL</text>
-    <text x="684" y="51" text-anchor="end" fill="#756A7E" font-size="11" font-weight="700" letter-spacing=".8">UPDATED 30 AUG 2026</text>
+    <text x="684" y="51" text-anchor="end" fill="#756A7E" font-size="11" font-weight="700" letter-spacing=".8">UPDATED 31 AUG 2026</text>
 
     <text x="36" y="174" fill="url(#rank)" font-size="108" font-weight="780" letter-spacing="-5">SSS</text>
-    <text x="260" y="115" fill="#211D25" font-size="40" font-weight="760">4,522</text>
+    <text x="260" y="115" fill="#211D25" font-size="40" font-weight="760">4,521</text>
     <text x="260" y="146" fill="#211D25" font-size="19" font-weight="720" letter-spacing=".3">CONTRIBUTIONS</text>
     <text x="260" y="175" fill="#756A7E" font-size="14" font-weight="650">LAST 12 MONTHS · CATEGORY RANK SSS</text>
     <path d="M36 210H684" stroke="#D8D0DF"/>
