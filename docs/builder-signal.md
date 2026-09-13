@@ -1,6 +1,6 @@
-# Builder signal methodology
+# GitHub activity card methodology
 
-The Builder Signal uses separate category ranks instead of one overall GitHub grade. It measures visible work, not the size of an audience.
+The activity card groups GitHub counts into fixed threshold bands. These are custom display ranks, not official GitHub ratings, peer rankings, or an assessment of code quality, seniority or shipped products.
 
 ## What the card measures
 

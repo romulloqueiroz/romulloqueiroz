@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" role="img" aria-labelledby="title desc">
-  <title id="title">Romullo Queiroz</title>
-  <desc id="desc">I make complex products feel clear on first use, then ship the system underneath.</desc>
+  <title id="title">Romullo Bernardo</title>
+  <desc id="desc">Senior Full-Stack and Applied AI Engineer in Tokyo. Founder of Language Lit; building products, interfaces and AI workflows.</desc>
   <defs>
     <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
       <path d="M48 0H0V48" fill="none" stroke="#DED8E7" stroke-width="1"/>
@@ -20,10 +20,10 @@
     <rect x="34" y="31" width="139" height="30" rx="15" fill="#EEE8F6" stroke="#D5CBE2"/>
     <circle cx="52" cy="46" r="5" fill="#7457C1"/>
     <text x="66" y="51" fill="#5D4E72" font-size="12" font-weight="700" letter-spacing="1.3">ROM / TOKYO</text>
-    <text x="34" y="116" fill="#1F1B24" font-size="45" font-weight="760" letter-spacing="-1.7">I make complex products</text>
-    <text x="34" y="166" fill="#1F1B24" font-size="45" font-weight="760" letter-spacing="-1.7">feel clear on first use.</text>
-    <text x="34" y="216" fill="url(#accent)" font-size="45" font-weight="760" letter-spacing="-1.7">Then I ship the system.</text>
-    <text x="36" y="397" fill="#514B57" font-size="16" font-weight="550">Founder · Product design + engineering · Tokyo</text>
+    <text x="34" y="116" fill="#1F1B24" font-size="45" font-weight="760" letter-spacing="-1.7">Senior Full-Stack</text>
+    <text x="34" y="166" fill="#1F1B24" font-size="45" font-weight="760" letter-spacing="-1.7">&amp; Applied AI Engineer</text>
+    <text x="34" y="216" fill="url(#accent)" font-size="45" font-weight="760" letter-spacing="-1.7">Product. Interface. AI.</text>
+    <text x="36" y="397" fill="#514B57" font-size="16" font-weight="550">Romullo Bernardo · Full-stack + applied AI · Tokyo</text>
   </g>
 
   <g filter="url(#shadow)">

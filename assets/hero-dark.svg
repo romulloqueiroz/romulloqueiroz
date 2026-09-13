@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
-  <title id="title">Romullo Queiroz</title>
-  <desc id="desc">I make complex products feel clear on first use, then ship the system underneath. Founder of Language Lit and creative engineer in Tokyo.</desc>
+  <title id="title">Romullo Bernardo</title>
+  <desc id="desc">Senior Full-Stack and Applied AI Engineer in Tokyo. Founder of Language Lit; building products, interfaces and AI workflows.</desc>
   <defs>
     <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
       <path d="M64 0H0V64" fill="none" stroke="#2A2730" stroke-width="1"/>
@@ -27,11 +27,11 @@
     <circle cx="82" cy="65" r="6" fill="#B89EF7"/>
     <text x="98" y="70" fill="#D9CFF0" font-size="14" font-weight="700" letter-spacing="1.5">ROM / TOKYO</text>
 
-    <text x="62" y="146" fill="#F7F2FA" font-size="58" font-weight="760" letter-spacing="-2.3">I make complex products</text>
-    <text x="62" y="211" fill="#F7F2FA" font-size="58" font-weight="760" letter-spacing="-2.3">feel clear on first use.</text>
-    <text x="62" y="276" fill="url(#accent)" font-size="58" font-weight="760" letter-spacing="-2.3">Then I ship the system.</text>
-    <text x="64" y="342" fill="#C8C0CE" font-size="19" font-weight="500">Founder of Language Lit  ·  Product design + engineering  ·  Open source</text>
-    <text x="64" y="376" fill="#88818F" font-size="15" font-weight="600" letter-spacing="1">ROMULLO QUEIROZ</text>
+    <text x="62" y="146" fill="#F7F2FA" font-size="58" font-weight="760" letter-spacing="-2.3">Senior Full-Stack</text>
+    <text x="62" y="211" fill="#F7F2FA" font-size="58" font-weight="760" letter-spacing="-2.3">&amp; Applied AI Engineer</text>
+    <text x="62" y="276" fill="url(#accent)" font-size="58" font-weight="760" letter-spacing="-2.3">Product. Interface. AI.</text>
+    <text x="64" y="342" fill="#C8C0CE" font-size="19" font-weight="500">TypeScript · React · AI integration · Founder of Language Lit</text>
+    <text x="64" y="376" fill="#88818F" font-size="15" font-weight="600" letter-spacing="1">ROMULLO BERNARDO</text>
   </g>
 
   <g opacity=".95">

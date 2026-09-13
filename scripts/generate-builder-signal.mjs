@@ -172,7 +172,7 @@ function renderDesktop(stats, theme) {
   })
 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
-  <title id="title">Builder signal: ${escapeXml(stats.contributionRank)} contribution rank</title>
+  <title id="title">GitHub activity: ${escapeXml(stats.contributionRank)} contribution rank</title>
   <desc id="desc">${formatNumber(stats.contributions)} contributions in the last 12 months, ${formatNumber(stats.pullRequests)} pull requests and ${formatNumber(stats.issues)} issues across all time.</desc>
   <defs>
     <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
@@ -186,15 +186,15 @@ function renderDesktop(stats, theme) {
   <rect width="1200" height="340" rx="26" fill="url(#grid)" opacity=".58"/>
 
   <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
-    <rect x="52" y="34" width="162" height="32" rx="16" fill="${p.primarySoft}" stroke="${p.panelBorder}"/>
+    <rect x="52" y="34" width="182" height="32" rx="16" fill="${p.primarySoft}" stroke="${p.panelBorder}"/>
     <circle cx="71" cy="50" r="5" fill="${p.primary}"/>
-    <text x="84" y="55" fill="${p.primaryText}" font-size="12" font-weight="750" letter-spacing="1.35">BUILDER SIGNAL</text>
-    <text x="1148" y="55" text-anchor="end" fill="${p.muted}" font-size="12" font-weight="700" letter-spacing="1.1">VERIFIED GITHUB ACTIVITY · UPDATED ${updatedLabel()}</text>
+    <text x="84" y="55" fill="${p.primaryText}" font-size="12" font-weight="750" letter-spacing="1.35">GITHUB ACTIVITY</text>
+    <text x="1148" y="55" text-anchor="end" fill="${p.muted}" font-size="12" font-weight="700" letter-spacing="1.1">GITHUB ACTIVITY · UPDATED ${updatedLabel()}</text>
 
     <text x="52" y="178" fill="url(#rank)" font-size="112" font-weight="780" letter-spacing="-5">${escapeXml(stats.contributionRank)}</text>
     <text x="55" y="222" fill="${p.text}" font-size="25" font-weight="760">${formatNumber(stats.contributions)} CONTRIBUTIONS</text>
     <text x="55" y="248" fill="${p.muted}" font-size="13" font-weight="700" letter-spacing="1.25">LAST 12 MONTHS · CATEGORY RANK ${escapeXml(stats.contributionRank)}</text>
-    <text x="55" y="310" fill="${p.muted}" font-size="13" font-weight="650">Scores shipping activity, not audience size.</text>
+    <text x="55" y="310" fill="${p.muted}" font-size="13" font-weight="650">GitHub activity counts.</text>
 
     <path d="M430 84V272" stroke="${p.panelBorder}"/>
 
@@ -228,7 +228,7 @@ function renderMobile(stats, theme) {
   })
 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="title desc">
-  <title id="title">Builder signal: ${escapeXml(stats.contributionRank)} contribution rank</title>
+  <title id="title">GitHub activity: ${escapeXml(stats.contributionRank)} contribution rank</title>
   <desc id="desc">${formatNumber(stats.contributions)} contributions in the last 12 months, ${formatNumber(stats.pullRequests)} pull requests and ${formatNumber(stats.issues)} issues across all time.</desc>
   <defs>
     <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
@@ -242,9 +242,9 @@ function renderMobile(stats, theme) {
   <rect width="720" height="560" rx="25" fill="url(#grid)" opacity=".58"/>
 
   <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
-    <rect x="36" y="30" width="162" height="32" rx="16" fill="${p.primarySoft}" stroke="${p.panelBorder}"/>
+    <rect x="36" y="30" width="182" height="32" rx="16" fill="${p.primarySoft}" stroke="${p.panelBorder}"/>
     <circle cx="55" cy="46" r="5" fill="${p.primary}"/>
-    <text x="68" y="51" fill="${p.primaryText}" font-size="12" font-weight="750" letter-spacing="1.35">BUILDER SIGNAL</text>
+    <text x="68" y="51" fill="${p.primaryText}" font-size="12" font-weight="750" letter-spacing="1.35">GITHUB ACTIVITY</text>
     <text x="684" y="51" text-anchor="end" fill="${p.muted}" font-size="11" font-weight="700" letter-spacing=".8">UPDATED ${updatedLabel()}</text>
 
     <text x="36" y="174" fill="url(#rank)" font-size="108" font-weight="780" letter-spacing="-5">${escapeXml(stats.contributionRank)}</text>
@@ -266,7 +266,7 @@ function renderMobile(stats, theme) {
     <text x="481" y="331" fill="${p.muted}" font-size="13" font-weight="650">ALL TIME</text>
 
     <text x="36" y="407" fill="${p.muted}" font-size="12" font-weight="700" letter-spacing="1.2">52-WEEK ACTIVITY</text>
-    <text x="36" y="537" fill="${p.muted}" font-size="13" font-weight="650">Category ranks score shipping activity, not audience size.</text>
+    <text x="36" y="537" fill="${p.muted}" font-size="13" font-weight="650">Category ranks reflect activity counts, not code quality.</text>
   </g>
   <g>${bars}</g>
 </svg>

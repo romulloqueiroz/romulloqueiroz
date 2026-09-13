@@ -3,12 +3,14 @@
   <source media="(max-width: 600px)" srcset="./assets/hero-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img alt="Romullo Queiroz: complex products made clear and shipped as real systems" src="./assets/hero-light.svg" width="100%">
+  <img alt="Romullo Bernardo — Senior Full-Stack &amp; Applied AI Engineer in Tokyo" src="./assets/hero-light.svg" width="100%">
 </picture>
 
-I partner with founders and lean product teams to turn complex software ideas into polished production releases. I own the path from product clarity and interaction design to architecture and implementation, so there are fewer handoffs and good ideas survive contact with real code.
+I'm **Romullo Bernardo**, a Senior Full-Stack & Applied AI Engineer based in Tokyo. I build web and mobile products, connecting the interface, backend and AI workflows.
 
-Based in Tokyo. Currently building Language Lit and open-source interface systems.
+I help SaaS teams turn AI prototypes into usable product features. My work combines product ownership and full-stack delivery with interfaces where users can review, edit and approve agent proposals.
+
+**Remote contracts from Japan · Available October 2026** — [Connect on LinkedIn](https://www.linkedin.com/in/romullo-bernardo/)
 
 ## Selected work
 
@@ -20,11 +22,35 @@ Based in Tokyo. Currently building Language Lit and open-source interface system
   <img alt="Selected work: Language Lit and Material 3 Expressive" src="./assets/work-light.svg" width="100%">
 </picture>
 
-**[Language Lit](https://language-lit.com)** is a language-learning product I designed and built around one behavior: tap a word once, then meet it again inside whatever you read next. It combines contextual meaning across 33 languages with real FSRS scheduling while keeping the experience quiet and immediate.
+### Language Lit — product ownership
 
-**[Material 3 Expressive](https://m3e.language-lit.com)** turns a complex design specification into a production-ready React system. I built 41 conformant components with typed theme and token APIs, precompiled CSS, and zero runtime dependencies. **[View the source →](https://github.com/Language-Lit/material3-expressive)**
+**[Language Lit](https://language-lit.com)** is a language-learning SaaS used in 20+ countries. As founder and sole developer, I own product strategy, UX, frontend, backend, subscriptions and cloud infrastructure.
 
-## Shipping signal
+- Built contextual translation, AI-generated stories and mnemonic images, and FSRS spaced-repetition scheduling.
+- Moved lesson creation and other selected AI workflows to Mastra within the existing TypeScript application.
+- Built with React/Next.js, Firebase, Google Cloud and Stripe.
+
+### Material 3 Expressive — React and agent interfaces
+
+An independent **[React implementation of Material 3 Expressive](https://github.com/Language-Lit/material3-expressive)** with typed theme/token APIs, precompiled CSS and Vite/Next.js consumer fixtures. The core package has no runtime dependencies; React is a peer dependency.
+
+Separate companion packages in the Language-Lit organization:
+
+- **[AG-UI](https://github.com/Language-Lit/material3-expressive-ag-ui):** streaming conversations, tool-rendered UI and user approval steps. Editable drafts survive state updates, with proposal revisions available for backend validation.
+- **[A2UI](https://github.com/Language-Lit/material3-expressive-a2ui):** protocol-driven rendering, streaming placeholders, two-way data binding, validation and action dispatch.
+- **[MCP Apps](https://github.com/Language-Lit/material3-expressive-mcp-apps):** host-side and app-side integration, separate-origin sandboxing, configurable tool-authorization hooks and controlled teardown.
+
+[Explore the documentation and live demos →](https://m3e.language-lit.com)
+
+### Mastra — upstream contribution
+
+[**Merged PR #22913**](https://github.com/mastra-ai/mastra/pull/22913): fixed Pino error serialization so error messages and stack traces are preserved when logged under the `error` key. Included regression tests, documentation and a changeset.
+
+## Stack
+
+TypeScript · React · Next.js · React Native · Node.js · Go · Mastra · Firebase · Google Cloud · PostgreSQL
+
+## GitHub activity
 
 <a href="./docs/builder-signal.md">
   <picture>
@@ -32,15 +58,17 @@ Based in Tokyo. Currently building Language Lit and open-source interface system
     <source media="(max-width: 600px)" srcset="./assets/builder-signal-mobile-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="./assets/builder-signal-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/builder-signal-light.svg">
-    <img alt="Builder signal category ranks based on verified GitHub activity" src="./assets/builder-signal-light.svg" width="100%">
+    <img alt="GitHub activity counts and threshold-based category ranks" src="./assets/builder-signal-light.svg" width="100%">
   </picture>
 </a>
 
 <p align="right"><sub><a href="./docs/builder-signal.md">How the category ranks work →</a></sub></p>
 
-## Building something difficult?
+## Work with me
 
-I work best on products where interaction quality and production architecture have to be solved together. If you need one product partner who can turn ambiguity into a clear interface and a system ready to ship, **[let’s talk →](https://www.linkedin.com/in/romullo-bernardo/)**
+My strongest fit is a product team that needs senior delivery across the interface, backend and AI workflow. I am seeking international remote contracts from October 2026, with Japanese opportunities also of interest.
+
+[Let's discuss your product →](https://www.linkedin.com/in/romullo-bernardo/)
 
 <p align="center">
   <a href="https://language-lit.com">Language Lit</a>
